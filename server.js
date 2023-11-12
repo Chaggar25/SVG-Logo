@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const { Triangle, Square, Circle } = require("./Develop/lib/shapes");
+const { Triangle, Square, Circle } = require("./Develop/examples/li/shapes");
 
 function writeToFile(fileName, answers) {
   let svgString = "";
